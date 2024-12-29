@@ -68,81 +68,83 @@ The **Eye-Blink-Volume-Brightness-Control** system is highly beneficial in the f
 
 ### Step 1: Clone the repository
 
-```bash
+
 git clone https://github.com/yourusername/Eye-Blink-Volume-Brightness-Control.git
 cd Eye-Blink-Volume-Brightness-Control
 
-Step 2: Install dependencies
-You can install the required dependencies via pip by running:
+Certainly! Here’s your markdown updated with proper formatting and headings for **Step 2** and other steps:
 
-bash
-Copy code
+
+# Eye-Blink-Volume-Brightness-Control
+
+### Installation and Setup
+
+### Step 1: Clone the Repository
+To begin, clone the repository to your local machine by running the following command:
+
+```bash
+git clone https://github.com/yourusername/Eye-Blink-Volume-Brightness-Control.git
+cd Eye-Blink-Volume-Brightness-Control
+```
+
+### Step 2: Install Dependencies
+You can install the required dependencies using `pip` by running:
+
+```bash
 pip install -r requirements.txt
-Step 3: Download the Facial Landmark Model
-The dlib library requires a pre-trained model for facial landmark detection. Download the model from this link and extract it in the project directory.
+```
 
-Step 4: Running the Application
+### Step 3: Download the Facial Landmark Model
+The **dlib** library requires a pre-trained model for facial landmark detection. 
+
+### Step 4: Running the Application
 To run the application locally, execute the following command:
 
-bash
-Copy code
-python app.py
-This will start a local server and you can view the application in your browser at http://127.0.0.1:5000/.
+```bash
+python main.py
+```
 
-Usage
-Eye Blink Detection:
-The system will continuously detect and count your eye blinks.
-The blink count will be displayed on the video feed, helping you track the number of blinks in real time.
-Hand Gesture Control:
-Left Hand: Controls screen brightness. The distance between the thumb and index finger determines the brightness level.
-Right Hand: Controls system volume. The same principle applies, where the distance between hand landmarks adjusts the system volume.
-Video Feed Streaming
-This project uses Flask to serve the webcam video feed to the browser. The video is processed in real-time, and blink count, volume, and brightness levels are displayed on the live feed.
+This will start a local server, and you can view the application in your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
 
-Video Streaming Endpoint:
-URL: /video_feed
-MIME Type: multipart/x-mixed-replace
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Usage
 
-Contributing
-We welcome contributions! Feel free to fork the repository and submit pull requests. If you find any bugs or have suggestions for improvement, please open an issue.
+### Eye Blink Detection
+- The system continuously detects and counts eye blinks in real time.
+- The blink count is displayed on the video feed, allowing you to track your blinking behavior.
 
-Guidelines for Contributions:
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Write clear commit messages.
-Submit a pull request.
-Acknowledgments
-dlib: For providing a robust facial landmark detection model.
-MediaPipe: For offering an efficient framework for real-time hand gesture recognition.
-pycaw: For enabling easy system volume control on Windows.
-screen_brightness_control: For providing cross-platform screen brightness control.
-OpenCV: For its powerful video processing capabilities.
-Flask: For the simple yet effective web framework.
-Screenshots
-Real-time video feed showing blink count and hand gestures for control.
+### Hand Gesture Control
+- **Left Hand**: Controls **screen brightness**. The distance between the thumb and index finger determines the brightness level.
+- **Right Hand**: Controls **system volume**. The same principle applies to adjust the system volume based on the distance between hand landmarks.
 
-System controlling volume and brightness with hand gestures in the video feed.
+### Video Feed Streaming
+This project uses **Flask** to stream the webcam video feed to the browser. The video is processed in real-time, with the blink count, volume, and brightness levels displayed on the live feed.
 
-Contact
-For any inquiries or feedback, feel free to reach out via GitHub issues or email at your.email@example.com.
+## License
+This project is licensed under the **MIT License**. For more details, refer to the [LICENSE](LICENSE) file.
 
-markdown
-Copy code
+## Contributing
+We welcome contributions! Feel free to fork the repository and submit pull requests. If you encounter any bugs or have suggestions for improvement, please open an issue.
 
-### Additional Details:
-1. **Dependencies**: This extended `README.md` provides a technical breakdown of the libraries and how they are integrated into the project.
-2. **Detailed Explanation**: It gives an in-depth explanation of each feature, including the methods used for **Eye Blink Detection**, **Hand Gesture Recognition**, and **Real-Time Control**.
-3. **System Architecture**: It describes how the entire system works, from video capture to control interaction.
-4. **Installation Instructions**: Clear steps to clone the repository, install dependencies, and run the application.
-5. **Usage**: A more detailed usage section, explaining how users can interact with the system to control volume and brightness.
-6. **Screenshots**: The placeholders for screenshots can be updated once you have images that show the functionality in action.
+### Contribution Guidelines:
+1. **Fork** the repository.
+2. **Create** a new branch for your feature or bugfix.
+3. **Write clear commit messages** to describe your changes.
+4. **Submit** a pull request for review.
 
-### How to Add Images:
-1. Create an `images` folder in the root of your project repository.
-2. Add images such as screenshots of your application in action (e.g., `screenshot1.png`).
-3. Reference those images using markdown syntax like `![Screenshot](images/screenshot1.png)`.
+## Acknowledgments
+- **dlib**: For providing the robust facial landmark detection model.
+- **MediaPipe**: For offering an efficient framework for real-time hand gesture recognition.
+- **pycaw**: For enabling system volume control on Windows.
+- **screen_brightness_control**: For providing cross-platform screen brightness control.
+- **OpenCV**: For its powerful video processing capabilities.
+- **Flask**: For its lightweight and effective web framework.
 
-This version provides a more detailed and professional approach, s
+## Screenshots
+- ![Screenshot 1](images/screenshot1.png)  
+  *Real-time video feed displaying blink count and hand gestures for control.*
 
+- ![Screenshot 2](images/screenshot2.png)  
+  *System controlling volume and brightness using hand gestures in the video feed.*
+
+## Contact
+For any inquiries or feedback, please feel free to reach out via GitHub issues or email at `singaditya934@gmail.com`.
