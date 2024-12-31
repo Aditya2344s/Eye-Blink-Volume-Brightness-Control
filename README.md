@@ -143,7 +143,7 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 - ![Screenshot 1](images/screenshot1.png)  
   *Real-time video feed displaying blink count and hand gestures for control.*
 
-- ![Screenshot 2](images/screenshot2.png)  
+  (eye blink.mp4images/screenshot2.png)  
   *System controlling volume and brightness using hand gestures in the video feed.*
 
 ## Contact
