@@ -141,8 +141,9 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 ## Screenshots
 
 ### Demo
-![Screenshot 1](images/screenshot1.png)  
-*Real-time video feed displaying blink count and hand gestures for control.*
+![Screenshot 2024-12-31 095549](https://github.com/user-attachments/assets/ad4bdb26-e916-4bfd-b2bf-9b732f4608c2)
+
+### Real-time video feed displaying blink count and hand gestures for control.
 
 https://github.com/user-attachments/assets/e6f6119f-c841-46da-b578-9ded6ce83853
 
