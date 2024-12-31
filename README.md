@@ -144,10 +144,8 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 ![Screenshot 1](images/screenshot1.png)  
 *Real-time video feed displaying blink count and hand gestures for control.*
 
-<video controls width="600">
-  <source src="https://github.com/Aditya2344s/Eye-Blink-Volume-Brightness-Control/raw/main/eye%20blink.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/e6f6119f-c841-46da-b578-9ded6ce83853
+
 
 
 ## Contact
