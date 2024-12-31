@@ -94,10 +94,10 @@ You can install the required dependencies using `pip` by running:
 pip install -r requirements.txt
 ```
 
-### Step 3: Download the Facial Landmark Model
+### Step 3: Download dlib's Pre-Trained Model
 The **dlib** library requires a pre-trained model for facial landmark detection. 
 
-### Step 4: Running the Application
+### Step 4: Run the Application
 To run the application locally, execute the following command:
 
 ```bash
