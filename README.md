@@ -83,8 +83,9 @@ Certainly! Here’s your markdown updated with proper formatting and headings fo
 To begin, clone the repository to your local machine by running the following command:
 
 ```bash
-git clone https://github.com/yourusername/Eye-Blink-Volume-Brightness-Control.git
+git clone https://github.com/Aditya2344s/Eye-Blink-Volume-Brightness-Control.git
 cd Eye-Blink-Volume-Brightness-Control
+
 ```
 
 ### Step 2: Install Dependencies
