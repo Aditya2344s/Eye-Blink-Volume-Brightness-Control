@@ -138,13 +138,17 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 - **screen_brightness_control**: For providing cross-platform screen brightness control.
 - **OpenCV**: For its powerful video processing capabilities.
 - **Flask**: For its lightweight and effective web framework.
-
 ## Screenshots
-- ![Screenshot 1](images/screenshot1.png)  
-  *Real-time video feed displaying blink count and hand gestures for control.*
 
-  (eye blink.mp4images/screenshot2.png)  
-  *System controlling volume and brightness using hand gestures in the video feed.*
+### Demo
+![Screenshot 1](images/screenshot1.png)  
+*Real-time video feed displaying blink count and hand gestures for control.*
+
+### Video Demo
+<video controls width="600">
+  <source src="eye-blink.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Contact
 For any inquiries or feedback, please feel free to reach out via GitHub issues or email at `singaditya934@gmail.com`.
