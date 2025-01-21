@@ -1,4 +1,4 @@
-# Eye-Blink-Volume-Brightness-Control
+# Volume-Brightness-Control by hand & Eye-Blink-count
 
 ## Project Overview
 
